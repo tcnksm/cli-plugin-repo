@@ -1,7 +1,7 @@
 ---
 plugins:
 - name: local-push
-  description: Run cf application in local development environment
+  description: Run cf application in local development environment.
   version: 0.1.0
   created: 2016-02-01
   updated: 2016-02-01
@@ -13,17 +13,33 @@ plugins:
   homepage: http://github.com/tcnksm/cf-plugin-local-push
   binaries:
   - platform: osx
-    url: https://github.com/
-    checksum: 321ddae9c55e8a98fe9e207c705e0922661ce2dc
+    url: https://github.com/tcnksm/cf-plugin-local-push/releases/download/0.1.0/cf-plugin-local-push_darwin_amd64
+    checksum: eb0365740dc1de24e131d2263128989024253561
   - platform: win64
-    url: https://github.com/
-    checksum: 7f5b31a32269881e37409f5fc1b4273beee9d0f7
-  - platform: win32
-    url: https://github.com/
-    checksum: 5f70f5563f02355598e4087a38e5e629fcca07bb
+    url: https://github.com/tcnksm/cf-plugin-local-push/releases/download/0.1.0/cf-plugin-local-push_windows_amd64.exe
+    checksum: f4a60882805228c4c21f62eaa90baaa3514f76e2
   - platform: linux64
-    url: https://github.com/
-    checksum: 9793e8334cb7be360ab36769437f238fd8ed99a0
-  - platform: linux32
-    url: https://github.com/
-    checksum: c843bacae2ea268643fbe36015aed68d5273cca9
+    url: https://github.com/tcnksm/cf-plugin-local-push/releases/download/0.1.0/cf-plugin-local-push_linux_amd64
+    checksum: 79017f9fa28e5ac09cef8d316765d85bb8c9b8fe
+    
+- name: update-cli
+  description: Update cf cli command to the latest version
+  version: 0.1.0
+  created: 2016-02-01
+  updated: 2016-02-01
+  company:
+  authors:
+  - name: tcnksm
+    homepage: http://github.com/tcnksm
+    contact: nsd22843@gmail.com
+  homepage: http://github.com/tcnksm/cf-plugin-update-cli
+  binaries:
+  - platform: osx
+    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.0/cf-plugin-update-cli_darwin_amd64
+    checksum: ac4f702f6163e7f2add2397b35c5e5607d6f9509
+  - platform: win64
+    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.0/cf-plugin-update-cli_windows_amd64.exe
+    checksum: fe8d653c4dd8b20a33616f4ca6d161f30c896ea6
+  - platform: linux64
+    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.0/cf-plugin-update-cli_linux_amd64
+    checksum: ff365e2ec0923e9bdb5fec5fe4233d56effd6e16
